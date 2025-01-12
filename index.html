@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Welcome to our movie website where you can explore the latest movies, popular movies, and upcoming releases."
+    />
+    <meta
+      name="keywords"
+      content="movies, latest movies, popular movies, upcoming movies, movie trailers, film, entertainment"
+    />
+    <meta name="author" content="VanThoungChao" />
+
+    <meta property="og:title" content="Movie Website" />
+    <meta
+      property="og:description"
+      content="Discover the latest and upcoming movies with trailers and more."
+    />
+    <meta property="og:image" content="" />
+    <meta property="og:url" content="https://Movie168.com" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:site_name" content="Movie Website" />
+    <!-- twitter -->
+    <meta name="twitter:card" content="image" />
+    <meta name="twitter:title" content="Movie Website" />
+    <meta
+      name="twitter:description"
+      content="Explore the best of movie trailers, latest releases, and much more."
+    />
+    <meta name="twitter:image" content="image" />
+    <meta name="twitter:image:alt" content="" />
+    <meta name="twitter:site" content="" />
+    <meta name="twitter:creator" content="" />
+    <!-- googole -->
+    <meta itemprop="name" content="Movie Website" />
+    <meta
+      itemprop="description"
+      content="Discover the latest movies, popular films, and upcoming releases. Watch trailers and stay updated with the movie world."
+    />
+    <meta itemprop="image" content="image" />
+
+    <title>Home</title>
+    <link rel="stylesheet" href="main.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+  <body class="bg-black">
+    <!-- header -->
+    <header class="container-fluid bg-dark position-sticky top-0 z-3">
+      <div
+        class="container d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3"
+      >
+        <div class="col-md-3 mb-2 mb-md-0">
+          <a
+            href=""
+            class="d-inline-flex link-body-emphasis text-decoration-none"
+          >
+            <i
+              class="fa-brands fa-bootstrap text-danger"
+              style="font-size: 45px"
+            ></i>
+          </a>
+        </div>
+
+        <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+          <li>
+            <a
+              href="index.html"
+              class="nav-link px-2 link-secondary text-light fs-5"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a href="movie.html" class="nav-link px-4 text-light fs-5">Movie</a>
+          </li>
+          <li>
+            <a href="#" class="nav-link px-4 text-light fs-5">Categories</a>
+          </li>
+          <li><a href="#" class="nav-link px-4 text-light fs-5">Contact</a></li>
+          <li><a href="#" class="nav-link px-4 text-light fs-5">About</a></li>
+        </ul>
+
+        <div class="col-md-3 text-end">
+          <button type="button" class="btn btn-outline-primary me-2">
+            <a href="login.html" class="text-decoration-none text-light"
+              >Login</a
+            >
+          </button>
+          <button type="button" class="btn btn-danger">
+            <a href="signup.html" class="text-decoration-none text-light"
+              >Sign-up</a
+            >
+          </button>
+        </div>
+      </div>
+    </header>
+    <!-- main -->
+    <main class="bg-black pt-3">
+      <!-- Search -->
+      <section class="container">
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+          <input
+            type="search"
+            class="form-control"
+            placeholder="Search..."
+            aria-label="Search"
+          />
+        </form>
+      </section>
+      <!-- hero -->
+      <section class="container">
+        <div
+          id="carouselExampleSlidesOnly"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                <div class="col-10 col-sm-8 col-lg-6 overflow-hidden rounded-5">
+                  <img
+                    src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202412/trailer-of-squid-games-2-out-273250110-16x9_0.jpg?VersionId=DZ4aH7y0QUM_PD_XCGnqUsW969fW9.0s&size=690:388"
+                    class="d-block mx-lg-auto img-fluid"
+                    alt="Bootstrap Themes"
+                    width="700"
+                    height="500"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="col-lg-6">
+                  <h1 class="display-5 fw-bold lh-1 mb-3 text-light">
+                    Squid Game <br /><span style="margin-left: 120px"
+                      >Season 2</span
+                    >
+                  </h1>
+                  <p class="lead text-light">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Ex, pariatur quis. Nesciunt accusamus exercitationem quaerat
+                    sequi sit tempora dignissimos distinctio fugiat! Deserunt
+                    quas ullam commodi aperiam quod quam ex deleniti!
+                  </p>
+                  <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                    <button
+                      type="button"
+                      class="btn btn-primary btn-lg px-4 me-md-2"
+                    >
+                      Watch Here
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                <div class="col-10 col-sm-8 col-lg-6 overflow-hidden rounded-5">
+                  <img
+                    src="https://i.ytimg.com/vi/Y662GRrGMNw/maxresdefault.jpg"
+                    class="d-block mx-lg-auto img-fluid"
+                    alt="Bootstrap Themes"
+                    width="700"
+                    height="500"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="col-lg-6">
+                  <h1 class="display-5 fw-bold lh-1 mb-3 text-light">
+                    Room 404 <br /><span style="margin-left: 100px"
+                      >Run Run</span
+                    >
+                  </h1>
+                  <p class="lead text-light">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Ex, pariatur quis. Nesciunt accusamus exercitationem quaerat
+                    sequi sit tempora dignissimos distinctio fugiat! Deserunt
+                    quas ullam commodi aperiam quod quam ex deleniti!
+                  </p>
+                  <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                    <button
+                      type="button"
+                      class="btn btn-primary btn-lg px-4 me-md-2"
+                    >
+                      Watch Here
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Layout Card -->
+      <section class="container">
+        <div class="row d-flex justify-content-between">
+          <div class="col-lg-9 col-md-12 col-sm-12">
+            <div class="row">
+              <div class="col-12"><h2 class="text-light">POPULAR</h2></div>
+            </div>
+            <div class="row mt-3 row-cols-2 row-cols-sm-3 row-cols-md-4 g-3">
+              <div class="col">
+                <a href="">
+                  <div class="card bg-transparent">
+                    <img
+                      src="https://images.plex.tv/photo?size=large-1280&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2Fcaq0z9C2vvKdDhGe1EX6nerswV5.jpg"
+                      class="card-img-top object-fit-cover"
+                      alt="squid game2"
+                      style="max-height: 500px"
+                    />
+                    <div class="card-body position-absolute bottom-0">
+                      <h5 class="card-title text-light">Squid Game 2</h5>
+                      <!-- <a href="#" class="btn btn-primary">Watch Here</a> -->
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col">
+                <a href="#">
+                  <div class="card bg-transparent" style="width: 100%">
+                    <img
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmvQ6W1VFa2bWO3o0MxqzrEd3BHCSGF54bFA&s"
+                      class="card-img-top"
+                      alt="kungfu"
+                      style="max-height: 500px"
+                    />
+                    <div class="card-body position-absolute bottom-0">
+                      <h5 class="card-title text-light">KungFu Panda 4</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col">
+                <a href="#">
+                  <div class="card bg-transparent">
+                    <img
+                      src="https://poster.gsc.com.my/2025/250106_404RunRun_big.jpg"
+                      class="card-img-top object-fit-cover"
+                      alt="404"
+                      style="max-height: 500px"
+                    />
+                    <div class="card-body position-absolute bottom-0">
+                      <h5 class="card-title text-light">404 Run Run</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col">
+                <a href="#">
+                  <div class="card bg-transparent">
+                    <img
+                      src="https://tickets.legend.com.kh/CDN/media/entity/get/Movies/HO00001796"
+                      class="card-img-top object-fit-cover"
+                      alt="rider"
+                      style="max-width: 500px"
+                    />
+                    <div class="card-body position-absolute bottom-0">
+                      <h5 class="card-title text-light">Rider</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <!-- coming soon -->
+            <div class="row mt-4">
+              <div class="col-12"><h2 class="text-light">Coming Soon</h2></div>
+            </div>
+            <div
+              class="row mt-3 mb-5 row-cols-2 row-cols-sm-3 row-cols-md-4 g-3"
+            >
+              <div class="col">
+                <a href="">
+                  <div class="card bg-transparent">
+                    <img
+                      src="https://tickets.legend.com.kh/CDN/media/entity/get/Movies/HO00001794"
+                      class="card-img-top object-fit-cover"
+                      alt="Stand By Me"
+                      style="max-height: 500px"
+                    />
+                    <div class="card-body position-absolute bottom-0">
+                      <h5 class="card-title text-light">Stand By Me</h5>
+                      <!-- <a href="#" class="btn btn-primary">Watch Here</a> -->
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col">
+                <a href="#">
+                  <div class="card bg-transparent" style="width: 100%">
+                    <img
+                      src="https://tickets.legend.com.kh/CDN/media/entity/get/Movies/HO00001629"
+                      class="card-img-top"
+                      alt="Moana 2"
+                      style="max-height: 500px"
+                    />
+                    <div class="card-body position-absolute bottom-0">
+                      <h5 class="card-title text-light">Moana 2</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col">
+                <a href="#">
+                  <div class="card bg-transparent">
+                    <img
+                      src="https://tickets.legend.com.kh/CDN/media/entity/get/FilmPosterGraphic/HO00001798"
+                      class="card-img-top object-fit-cover"
+                      alt="Prosecutor"
+                      style="max-height: 500px"
+                    />
+                    <div class="card-body position-absolute bottom-0">
+                      <h5 class="card-title text-light">Prosecutor</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col">
+                <a href="#">
+                  <div class="card bg-transparent">
+                    <img
+                      src="https://tickets.legend.com.kh/CDN/media/entity/get/Movies/HO00001792"
+                      class="card-img-top object-fit-cover"
+                      alt="White Bird"
+                      style="max-width: 500px"
+                    />
+                    <div class="card-body position-absolute bottom-0">
+                      <h5 class="card-title text-light">White Bird</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- Sponsor -->
+          <div
+            class="col-lg-3 col-md-12 col-sm-12 mt-5 mt-md-0 px-5 border bg-dark rounded-3"
+          >
+            <div class="row border-bottom">
+              <h2 class="text-light">Sponsor Me By</h2>
+            </div>
+            <div class="row mt-3">
+              <img
+                src="image/photo_2025-01-12_18-25-46 (2).jpg"
+                alt="qr"
+                style="max-height: 600px"
+              />
+            </div>
+            <div class="row mt-4 border-bottom">
+              <h2 class="text-light">Supported By</h2>
+            </div>
+            <div class="row mt-3 text-light fs-4 text-center">
+              <ul style="list-style: none">
+                <li>Polin</li>
+                <li>Devid</li>
+                <li>Tharoth</li>
+                <li>Samatra</li>
+                <li>Hav</li>
+                <li>Lineth</li>
+                <li>VarnBun</li>
+                <li>VuochNeat</li>
+                <li>VanLy</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- footer -->
+    <footer class="py-3 mt-5 container-fluid bg-dark">
+      <div class="container">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link px-4 text-light fs-5">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="movie.html" class="nav-link px-2 text-light fs-5">Movie</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-light fs-5">Categories</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-light fs-5">Contect</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-light fs-5">About</a>
+          </li>
+        </ul>
+        <p class="text-center text-light">© 2025 Design by VanThoungChao</p>
+      </div>
+    </footer>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"
+  ></script>
+</html>
