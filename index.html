@@ -55,13 +55,16 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     />
   </head>
-  <body class="bg-black">
+  <body class="" style="background-color: #0e0e0e;">
     <!-- header -->
     <header class="container-fluid bg-dark position-sticky top-0 z-3">
-      <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <nav class="navbar navbar-expand-md navbar-dark py-2">
         <div class="container">
           <a class="navbar-brand" href="#">
-            <i class="fa-brands fa-bootstrap text-danger" style="font-size: 45px"></i>
+            <i
+              class="fa-brands fa-bootstrap text-danger"
+              style="font-size: 45px"
+            ></i>
           </a>
           <button
             class="navbar-toggler"
@@ -92,111 +95,192 @@
                 <a class="nav-link text-light" href="#">About</a>
               </li>
             </ul>
+            <form class="d-flex me-3" role="search">
+              <input
+                type="search"
+                class="form-control me-2"
+                placeholder="Search..."
+                aria-label="Search"
+              />
+            </form>
             <div class="d-flex">
-              <a href="login.html" class="btn btn-outline-primary me-2">Login</a>
+              <a href="login.html" class="btn btn-outline-primary me-2"
+                >Login</a
+              >
               <a href="signup.html" class="btn btn-danger">Sign-up</a>
             </div>
           </div>
         </div>
       </nav>
     </header>
-    
+
     <!-- main -->
-    <main class="bg-black pt-3">
+    <main class="">
       <!-- Search -->
-      <section class="container">
-        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
-          <input
-            type="search"
-            class="form-control"
-            placeholder="Search..."
-            aria-label="Search"
-          />
-        </form>
-      </section>
+      <section class="container-fluid position-absolute z-2 mt-3"></section>
       <!-- hero -->
-      <section class="container">
+      <section class="container-fluid position-relative p-0">
         <div
-          id="carouselExampleSlidesOnly"
+          id="carouselExampleIndicators"
           class="carousel slide"
           data-bs-ride="carousel"
         >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+
           <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-                <div class="col-10 col-sm-8 col-lg-6 overflow-hidden rounded-5">
-                  <img
-                    src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202412/trailer-of-squid-games-2-out-273250110-16x9_0.jpg?VersionId=DZ4aH7y0QUM_PD_XCGnqUsW969fW9.0s&size=690:388"
-                    class="d-block mx-lg-auto img-fluid"
-                    alt="Bootstrap Themes"
-                    width="700"
-                    height="500"
-                    loading="lazy"
-                  />
-                </div>
-                <div class="col-lg-6">
-                  <h1 class="display-5 fw-bold lh-1 mb-3 text-light">
-                    Squid Game <br /><span style="margin-left: 120px"
-                      >Season 2</span
+            <div class="carousel-item active position-relative">
+              <img
+                src="https://www.kakuchopurei.com/wp-content/uploads/2024/11/SQUID-GAME_-SEASON-2-_-Stair-Maze-Key-Art-EN-GB-1.jpg"
+                class="d-block w-100 object-fit-cover blurred-image"
+                alt="squid game 2"
+                style="max-height: 450px"
+              />
+              <article
+                class="container-fluid position-absolute top-0 m-auto w-100 h-100"
+              >
+                <div
+                  class="d-flex justify-content-center align-items-center w-100 h-100"
+                >
+                  <div
+                    class="container row flex-lg-row-reverse align-items-center g-5 py-5"
+                  >
+                    <!-- Image Column -->
+                    <div class="col-12 col-sm-8 col-md-6 col-lg-6">
+                      <img
+                        src="https://www.kakuchopurei.com/wp-content/uploads/2024/11/SQUID-GAME_-SEASON-2-_-Stair-Maze-Key-Art-EN-GB-1.jpg"
+                        class="d-block mx-lg-auto img-fluid"
+                        alt="Squid Game 2"
+                        width="700"
+                        height="500"
+                        loading="lazy"
+                      />
+                    </div>
+                    <!-- Text Column: Hidden on sm screens -->
+                    <div
+                      class="col-12 col-md-6 col-lg-6 text-light d-none d-sm-block"
                     >
-                  </h1>
-                  <p class="lead text-light">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Ex, pariatur quis. Nesciunt accusamus exercitationem quaerat
-                    sequi sit tempora dignissimos distinctio fugiat! Deserunt
-                    quas ullam commodi aperiam quod quam ex deleniti!
-                  </p>
-                  <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                    <button
-                      type="button"
-                      class="btn btn-primary btn-lg px-4 me-md-2"
-                    >
-                      Watch Here
-                    </button>
+                      <h1 class="display-5 fw-bold lh-1 mb-3">Squid Game 2</h1>
+                      <p class="lead">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Explicabo sunt exercitationem, laudantium quis
+                        consequuntur alias voluptates sit quae cupiditate
+                      </p>
+                      <div
+                        class="d-grid gap-2 d-md-flex justify-content-md-start"
+                      >
+                        <button
+                          type="button"
+                          class="btn btn-primary btn-lg px-4 me-md-2"
+                        >
+                          Watch Now
+                        </button>
+                      </div>
+                    </div>
                   </div>
                 </div>
-              </div>
+              </article>
             </div>
-            <div class="carousel-item">
-              <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-                <div class="col-10 col-sm-8 col-lg-6 overflow-hidden rounded-5">
-                  <img
-                    src="https://i.ytimg.com/vi/Y662GRrGMNw/maxresdefault.jpg"
-                    class="d-block mx-lg-auto img-fluid"
-                    alt="Bootstrap Themes"
-                    width="700"
-                    height="500"
-                    loading="lazy"
-                  />
-                </div>
-                <div class="col-lg-6">
-                  <h1 class="display-5 fw-bold lh-1 mb-3 text-light">
-                    Room 404 <br /><span style="margin-left: 100px"
-                      >Run Run</span
+
+            <div class="carousel-item position-relative">
+              <img
+                src="https://i.ytimg.com/vi/Y662GRrGMNw/maxresdefault.jpg"
+                class="d-block w-100 object-fit-cover blurred-image"
+                alt="404"
+                style="max-height: 450px"
+              />
+              <article
+                class="container-fluid position-absolute top-0 m-auto w-100 h-100"
+              >
+                <div
+                  class="d-flex justify-content-center align-items-center w-100 h-100"
+                >
+                  <div
+                    class="container row flex-lg-row-reverse align-items-center g-5 py-5"
+                  >
+                    <!-- Image Column -->
+                    <div class="col-12 col-sm-8 col-md-6 col-lg-6">
+                      <img
+                        src="https://i.ytimg.com/vi/Y662GRrGMNw/maxresdefault.jpg"
+                        class="d-block mx-lg-auto img-fluid"
+                        alt="Bootstrap Themes"
+                        width="700"
+                        height="500"
+                        loading="lazy"
+                      />
+                    </div>
+                    <!-- Text Column: Hidden on sm screens -->
+                    <div
+                      class="col-12 col-md-6 col-lg-6 text-light d-none d-sm-block"
                     >
-                  </h1>
-                  <p class="lead text-light">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Ex, pariatur quis. Nesciunt accusamus exercitationem quaerat
-                    sequi sit tempora dignissimos distinctio fugiat! Deserunt
-                    quas ullam commodi aperiam quod quam ex deleniti!
-                  </p>
-                  <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                    <button
-                      type="button"
-                      class="btn btn-primary btn-lg px-4 me-md-2"
-                    >
-                      Watch Here
-                    </button>
+                      <h1 class="display-5 fw-bold lh-1 mb-3">
+                        Responsive left-aligned hero with image
+                      </h1>
+                      <p class="lead">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Explicabo sunt exercitationem, laudantium quis
+                        consequuntur alias voluptates sit quae cupiditate
+                      </p>
+                      <div
+                        class="d-grid gap-2 d-md-flex justify-content-md-start"
+                      >
+                        <button
+                          type="button"
+                          class="btn btn-primary btn-lg px-4 me-md-2"
+                        >
+                          Watch Now
+                        </button>
+                      </div>
+                    </div>
                   </div>
                 </div>
-              </div>
+              </article>
             </div>
           </div>
+
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
       </section>
+
       <!-- Layout Card -->
-      <section class="container">
+      <section class="container mt-5">
         <div class="row d-flex justify-content-between">
           <div class="col-lg-9 col-md-12 col-sm-12">
             <div class="row">
@@ -204,7 +288,7 @@
             </div>
             <div class="row mt-3 row-cols-2 row-cols-sm-3 row-cols-md-4 g-3">
               <div class="col">
-                <a href="">
+                <a href="detail.html">
                   <div class="card bg-transparent">
                     <img
                       src="https://images.plex.tv/photo?size=large-1280&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2Fcaq0z9C2vvKdDhGe1EX6nerswV5.jpg"
@@ -220,7 +304,7 @@
                 </a>
               </div>
               <div class="col">
-                <a href="#">
+                <a href="detail.html">
                   <div class="card bg-transparent" style="width: 100%">
                     <img
                       src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmvQ6W1VFa2bWO3o0MxqzrEd3BHCSGF54bFA&s"
@@ -235,7 +319,7 @@
                 </a>
               </div>
               <div class="col">
-                <a href="#">
+                <a href="detail.html">
                   <div class="card bg-transparent">
                     <img
                       src="https://poster.gsc.com.my/2025/250106_404RunRun_big.jpg"
@@ -250,7 +334,7 @@
                 </a>
               </div>
               <div class="col">
-                <a href="#">
+                <a href="detail.html">
                   <div class="card bg-transparent">
                     <img
                       src="https://tickets.legend.com.kh/CDN/media/entity/get/Movies/HO00001796"
@@ -337,7 +421,7 @@
           </div>
           <!-- Sponsor -->
           <div
-            class="col-lg-3 col-md-12 col-sm-12 mt-5 mt-md-0 px-5 border bg-dark rounded-3"
+            class="col-lg-3 col-md-12 col-sm-12 mt-5 mt-md-0 px-5  rounded-3" style="background-color: #1c1c1c;"
           >
             <div class="row border-bottom">
               <h2 class="text-light">Sponsor Me By</h2>
@@ -368,8 +452,134 @@
           </div>
         </div>
       </section>
-
-      
+      <!-- News -->
+      <section
+        class="container-fluid mt-5 py-5"
+        style="background-color: rgb(13, 13, 13)"
+      >
+        <div class="container">
+          <div class="row mb-3">
+            <h2 class="text-light">News</h2>
+          </div>
+          <div class="row">
+            <div class="col-3">
+              <div class="Image-New">
+                <img
+                  src="https://fr.web.img5.acsta.net/c_310_420/pictures/14/10/30/10/59/215487.jpg"
+                  alt="best director of the year 2024"
+                />
+              </div>
+            </div>
+            <div class="col-9 text-light" style="font-size: 20px">
+              <h3>The best director's movie of 2024</h3>
+              <h4>Biography</h4>
+              <p>
+                <span style="font-weight: bold">Name:</span> Christopher Nolan
+                <span style="font-weight: bold">( Nickname: </span>Chris
+                <span style="font-weight: bold">)</span> <br />
+                <span style="font-weight: bold">Born:</span> July 30, 1970 ·
+                London, England, UK <br />
+                <span style="font-weight: bold">Birth name:</span> Christopher
+                Edward Nolan
+              </p>
+              <h4>Mini Bio</h4>
+              <p style="text-align: justify">
+                Best known for his cerebral, often nonlinear, storytelling,
+                acclaimed Academy Award winner writer/director/producer Sir
+                Christopher Nolan CBE was born in London, England. Over the
+                course of more than 25 years of filmmaking, Nolan has gone from
+                low-budget independent films to working on some of the biggest
+                blockbusters ever made and became one of the most celebrated
+                filmmakers of modern cinema.
+              </p>
+              <button
+              type="button"
+              class="btn btn-primary btn-lg px-4 me-md-2"
+            >
+            See More
+            </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Subcribe Premuim -->
+       <section class="mt-4">
+        <div class="container">
+          <div class="row mb-3">
+            <h2 class="text-light">Subcribe Premuim</h2>
+          </div>
+          <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 mb-3 text-center">
+            <div class="col">
+              <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                <div class="card-header py-3 text-white bg-primary border-primary">
+                  <h4 class="my-0 fw-normal">Simple</h4>
+                </div>
+                <div class="card-body bg-light">
+                  <h1 class="card-title pricing-card-title">$10<small class="text-muted fw-light">/mo</small></h1>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li>30 users included</li>
+                    <li>15 GB of storage</li>
+                    <li>Phone and email support</li>
+                    <li>Help center access</li>
+                  </ul>
+                  <button type="button" class="w-100 btn btn-lg btn-primary">Subcribe Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                <div class="card-header py-3 text-white bg-primary border-primary">
+                  <h4 class="my-0 fw-normal">Medium</h4>
+                </div>
+                <div class="card-body bg-light">
+                  <h1 class="card-title pricing-card-title">$20<small class="text-muted fw-light">/mo</small></h1>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li>30 users included</li>
+                    <li>15 GB of storage</li>
+                    <li>Phone and email support</li>
+                    <li>Help center access</li>
+                  </ul>
+                  <button type="button" class="w-100 btn btn-lg btn-primary">Subcribe Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                <div class="card-header py-3 text-white bg-primary border-primary">
+                  <h4 class="my-0 fw-normal">Pro</h4>
+                </div>
+                <div class="card-body bg-light">
+                  <h1 class="card-title pricing-card-title">$30<small class="text-muted fw-light">/mo</small></h1>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li>30 users included</li>
+                    <li>15 GB of storage</li>
+                    <li>Phone and email support</li>
+                    <li>Help center access</li>
+                  </ul>
+                  <button type="button" class="w-100 btn btn-lg btn-primary">Subcribe Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                <div class="card-header py-3 text-white bg-primary border-primary">
+                  <h4 class="my-0 fw-normal">Super Pro</h4>
+                </div>
+                <div class="card-body bg-light">
+                  <h1 class="card-title pricing-card-title">$29<small class="text-muted fw-light">/mo</small></h1>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li>30 users included</li>
+                    <li>15 GB of storage</li>
+                    <li>Phone and email support</li>
+                    <li>Help center access</li>
+                  </ul>
+                  <button type="button" class="w-100 btn btn-lg btn-primary">Subcribe Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+       </section>
     </main>
     <!-- footer -->
     <footer class="py-3 mt-5 container-fluid bg-dark">

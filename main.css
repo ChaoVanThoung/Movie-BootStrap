@@ -11,3 +11,8 @@ img {
   max-width: 100%;
   height: auto;
 }
+.blurred-image {
+  width: 100%;
+  height: auto;
+  filter: blur(10px); /* Apply blur with a 8px radius */
+}
